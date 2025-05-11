@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Home Page */
+  .intro {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .intro h1 {
+    font-size: 36px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+  }
+  
+  /* Portfolio Page */
+  .portfolio {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .project {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    text-align: left;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .project p {
+    font-size: 16px;
+  }
+  
+  /* Contact Form Page */
+  .contact-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+  
